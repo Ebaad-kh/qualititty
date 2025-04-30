@@ -1,6 +1,7 @@
 #---------------------------------------
 #  Game Mechanics
 #    Student A (team lead)
+# Ebaad ur Rehman (281163937)
 #---------------------------------------
 
 def welcome_message():
@@ -13,9 +14,6 @@ def welcome_message():
  
     
     print("WELCOME TO THE TRIVIA GAME!!!") 
-    print("Get ready to test your knowledge and win points!")
-    #------------------------
-#---------------------------------------
     
 def choose_category(categories):
     """
@@ -27,10 +25,7 @@ def choose_category(categories):
     Returns:
     - str: The chosen category.
     """
-    #------------------------
-    # Add your code here
-    #------------------------
-    # No input validation, directly using indexes without checking bounds
+   
     print("Choose a category:")
     for i in range(len(categories)):
         print(f"{i+1}. {categories[i]}")
@@ -209,5 +204,6 @@ def restart_or_exit():
         main.main()
     else:
         print("Thanks for playing! Goodbye!")
+       
 
 #---------------------------------------
